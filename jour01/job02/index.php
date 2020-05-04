@@ -6,3 +6,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Runtrack</title>
 </head>
+<body>
+</body>
+</html>
