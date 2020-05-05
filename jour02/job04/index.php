@@ -18,7 +18,7 @@
             </ul>
         </nav>
    </header>
-   <main>
+   <main class="container">
         <form class="col s12" action="#" method="POST">
             <h4>Sexe</h4>
                 <label>
