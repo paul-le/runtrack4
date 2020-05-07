@@ -1,0 +1,210 @@
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    src: url('/assets/fonts/Roboto-Regular.ttf'), url('/assets/fonts/Roboto-Bold.ttf');
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+/****HEADER****/
+/****HEADER****/
+/****HEADER****/
+/****HEADER****/
+/****HEADER****/
+/****HEADER****/
+/****HEADER****/
+
+/* #topHeaderBarLogo{
+    
+} */
+
+#topHeaderBar{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    background-color: #8ac4d2;
+    border-bottom: 4px solid white;
+}
+
+#topHeaderBarLogo{
+    display:none;
+}
+
+#menu-smoll{
+    width: 15%;
+}
+
+#plateLogo{
+    display: none;
+}
+
+#navBar{
+    position: relative;
+    background-color: #8ac4d2;
+}
+
+#ulNavBar{
+    display: none;
+    position: fixed;
+    list-style: none;
+    background-color: #8ac4d2;
+    height: 100%;
+    width: 100%;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+
+#ulNavBar a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/****HEADER****/
+/****HEADER****/
+/****HEADER****/
+/****HEADER****/
+/****HEADER****/
+/****HEADER****/
+/****HEADER****/
+
+/****INDEX MAIN****/
+/****INDEX MAIN****/
+/****INDEX MAIN****/
+/****INDEX MAIN****/
+/****INDEX MAIN****/
+/****INDEX MAIN****/
+/****INDEX MAIN****/
+
+
+#indexMain{
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#card-index-own-style{
+    border: 2px solid black;
+}
+
+#card-index-own-style2{
+    border: 2px solid black;
+}
+
+#section-index-news{
+    display: flex;
+}
+
+#card-index-own-style3{
+    border: 2px solid black;
+    margin-right: 1%;
+}
+
+#section-news-menu-index{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+}
+
+#news-menu-index{
+    width: 100%;
+}
+
+#news-menu-index2{
+    width: 100%;
+}
+
+#card-index-own-style4med{
+    display: none;
+}
+
+#cards-top{
+    display: none;
+}
+
+#cards-top-mobile{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    width: 90%;
+    margin-left: 4%;
+}
+
+/****INDEX MAIN****/
+/****INDEX MAIN****/
+/****INDEX MAIN****/
+/****INDEX MAIN****/
+/****INDEX MAIN****/
+/****INDEX MAIN****/
+/****INDEX MAIN****/
+
+/****FOOTER****/
+/****FOOTER****/
+/****FOOTER****/
+/****FOOTER****/
+/****FOOTER****/
+/****FOOTER****/
+/****FOOTER****/
+
+footer{
+    width: 100%;
+    background-color: #8ac4d2;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+#footerBar{
+    height: auto;
+    background-color: #8ac4d2;
+    border-top: 3px solid #1d5ea2;
+    display: flex;
+    align-items: center;
+}
+
+#ulNavBarFooter{
+    justify-content: space-around;
+    list-style: none;
+    height: 100%;
+    color: #1d5ea2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#ulNavBarFooter a{
+    color: #1d5ea2;
+    text-decoration: none;
+}
+
+#ulNavBarFooter a:hover{
+    color: #174577;
+    text-shadow: #174577 1px 0 1px;
+}
+
+#plateLogoFooter{
+    width: 10%;
+}
+
+
+/****FOOTER****/
+/****FOOTER****/
+/****FOOTER****/
+/****FOOTER****/
+/****FOOTER****/
+/****FOOTER****/
+/****FOOTER****/
