@@ -171,6 +171,36 @@ body{
 /****INDEX MAIN****/
 /****INDEX MAIN****/
 
+/****INSCRIPTION****/
+/****INSCRIPTION****/
+/****INSCRIPTION****/
+/****INSCRIPTION****/
+/****INSCRIPTION****/
+/****INSCRIPTION****/
+/****INSCRIPTION****/
+
+#main-section-form-large-med{
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+    border-right: 1px solid rgb(185, 185, 185);
+    border-left: 1px solid rgb(185, 185, 185);
+    height:100%
+}
+
+/****INSCRIPTION****/
+/****INSCRIPTION****/
+/****INSCRIPTION****/
+/****INSCRIPTION****/
+/****INSCRIPTION****/
+/****INSCRIPTION****/
+/****INSCRIPTION****/
+
 /****FOOTER****/
 /****FOOTER****/
 /****FOOTER****/

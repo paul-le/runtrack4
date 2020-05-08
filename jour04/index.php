@@ -1,3 +1,9 @@
+<?php 
+
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -17,23 +23,7 @@
         <title>Accueil</title>
     </head>
     <body>
-        <header>
-            <section id="topHeaderBar">
-                <img id="topHeaderBarLogo" src="assets/laplateforme-long2.png">
-                <img onclick="menuClick()" id="menu-smoll" src="assets/hamburger.png">
-            </section>
-            <nav id="navBar">
-                <ul id="ulNavBar">
-                    <a href="#"><li>ACCUEIL</li></a>
-                    <a href="#"><li>CONNEXION / PROFIL</li></a>
-                    <li></li>
-                    <img id="plateLogo" src="assets/plateformelogoopa.png">
-                    <li></li>
-                    <a href="#"><li>CALENDRIER</li></a>
-                    <a href="#"><li>DECONNEXION</li></a>
-                </ul>
-            </nav>
-        </header>
+    <?php include('header.php'); ?>
         <main id="indexMain">
             <section id="cards-top">
                 <div id="card-index-own-style" class="card" style="width: 25rem;">
@@ -181,16 +171,6 @@
                 <!-- MOBILE PART -->
                 <!-- MOBILE PART -->
         </main>
-        <footer>
-            <section id="footerBar">
-            <img id="plateLogoFooter" src="assets/plateformelogoopa.png">
-                <ul id="ulNavBarFooter">
-                    <a href="#"><li>ACCUEIL</li></a>
-                    <a href="#"><li>CONNEXION / PROFIL</li></a>
-                    <a href="#"><li>CALENDRIER</li></a>
-                    <a href="#"><li>DECONNEXION</li></a>
-                </ul>
-            </section>
-        </footer>
+        <?php include('footer.php'); ?>
     </body>
 </html>
