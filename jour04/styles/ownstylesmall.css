@@ -137,12 +137,39 @@ body{
     display: none;
 }
 
+#card-index-own-style3{
+    display: none;
+}
+
 #cards-top-mobile{
     display: flex;
     flex-direction: column;
     font-size: 35px;
     width: 90%;
-    margin-left: 4%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+#section-news-menu-index{
+    display: none;
+}
+
+#card-index-own-style-mobile{
+    font-size: 35px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+#section-news-menu-index-mobile-flex{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+#h6-mobile{
+    font-size: 30px;
 }
 
 /****INDEX MAIN****/
